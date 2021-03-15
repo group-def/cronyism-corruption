@@ -9,11 +9,24 @@
     <div class='quiz-container'>
         <div id='quiz'></div>
     </div>
-    <button id="previous">Previous Question</button>
-    <button id="next">Next Question</button>
+    <!-- <button id="previous">Previous Question</button> -->
+    <button id="final-answer">Final Answer?</button>
+    <button id='next'>Next Question</button>
+    <button id='previous'>Previous Question</button>
     <button id='submit'>Submit Answer</button>
     <div id='results'></div>
-    <script src="quiz.js"></script>
+    <div class='answerbox' id='correctbox1'>
+        <div class='answerboxbar'><a onclick="closePopup()" class='closebutton'>&times;</a></div>
+        <div class='answerboxtitle'>Correct!</div>
+        <div class='answerboxtext'>blah blah blah</div>
+    </div>
+    <div class='answerbox' id='wrongbox1'>
+        <div class='answerboxbar'><a onclick="closePopup()" class='closebutton'>&times;</a></div>
+        <div class='answerboxtitle'>Wrong!</div>
+        <div class='answerboxtext'>blah blah blah</div>
+    </div>
+
+    <script src="quiz copy.js"></script>
 
 </body>
 </html>
