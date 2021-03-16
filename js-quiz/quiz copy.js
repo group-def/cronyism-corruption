@@ -1,4 +1,4 @@
-// CODE USED FROM https://www.sitepoint.com/simple-javascript-quiz/
+// CODE USED FROM https://www.sitepoint.com/simple-javascript-quiz/ nad https://stackoverflow.com/questions/36232733/javascript-quiz-when-user-gets-to-the-result-display-a-popup
 
 let questionNum = 0
 
@@ -115,17 +115,18 @@ function showPrevSlide() {
 
 // function to open and close answerbox
 function closePopup() {
-    document.getElementById('correctbox1').style.display = 'none';
-    document.getElementById('wrongbox1').style.display = 'none';
+    document.getElementById('answerbox').style.display = 'none';
 }
 
-function openPopupCorrect() {
-    document.getElementById(`correctbox1`).style.display = "inline-block";
+function openPopup() {
+    const answerBox = document.getElementById('answerbox');
+
+    answerBox.style.display = "inline-block";
 };
 
-function openPopupWrong() {
-    document.getElementById('wrongbox1').style.display = "inline-block";
-}
+/* function openPopupWrong() {
+    document.getElementById('answerbox').style.display = "inline-block";
+} */
 
 // define function to show answer box on submit
 function finalAnswer() {
@@ -135,14 +136,20 @@ function finalAnswer() {
     const selector = `input[name=question${questionNum}]:checked`;
     const userAnswer = (answerContainer.querySelector(selector) || {}).value;
     const correctAnswer = myQuestions[questionNum].correctAnswer
+    const answerBoxTitle = document.getElementById('answerboxtitle');
+    const answerBoxText = document.getElementById('answerboxtext');
 
     if(userAnswer === correctAnswer) {
-        openPopupCorrect();
-        nextButton.style.display = 'inline-block';
+        answerBoxTitle.innerHTML = answerCards[questionNum].correct.title;
+        answerBoxText.innerHTML = answerCards[questionNum].correct.content;
+
+        openPopup();
     }
     else{
-        openPopupWrong();
-        nextButton.style.display = 'inline-block';
+        answerBoxTitle.innerHTML = answerCards[questionNum].incorrect.title;
+        answerBoxText.innerHTML = answerCards[questionNum].incorrect.content;
+
+        openPopup();
     }
 };
 
@@ -188,6 +195,20 @@ const myQuestions = [
         correctAnswer: 'c'
     }
 ];
+
+const answerCards = [
+    {
+        correct: {
+            title: 'Correct!',
+            content: 'blah blah blah'
+        },
+        incorrect: {
+            title: 'Incorrect!',
+            content: 'blah blah'
+        }
+
+    }
+]
 
 // display quiz
 buildQuiz();

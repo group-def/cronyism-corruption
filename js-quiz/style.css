@@ -87,6 +87,8 @@
 
     pointer-events: none;
 
+    text-align: center;
+
   }
 
   .answerboxtitle {
@@ -104,6 +106,8 @@
     padding-right: 18px;
 
     padding-bottom: 18px;
+
+    text-align: center;
 
   }
 

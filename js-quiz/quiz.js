@@ -1,9 +1,14 @@
 // CODE USED FROM https://www.sitepoint.com/simple-javascript-quiz/
 
+let questionNum = 0;
 
 // FUNCTIONS
 // define function to build quiz
 function buildQuiz(){
+    // immediately close popups when building quiz to prevent it displaying on start
+    closePopup();
+    closePopupFinal();
+
     // variable to store HTML output
     const output = [];
 
@@ -40,6 +45,7 @@ function buildQuiz(){
 
 // define function to show results
 function showResults(){
+    closePopup();
     // gather answer containers from quiz
     const answerContainers = quizContainer.querySelectorAll('.answers');
 
@@ -57,18 +63,24 @@ function showResults(){
         if(userAnswer === currentQuestion.correctAnswer){
             // increasing user's score
             numCorrect++;
-
-            // make answers green
-            answerContainers[questionNumber].style.color = 'lightgreen';    
-        }
-        // if answer is wrong or blank
-        else{
-            // colour answers red
-            answerContainers[questionNumber].style.color = 'red';
-        }
-    });
-    // show number of correct answers out of total
-    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+    };
+    
+    // add message and score to final box
+    if(numCorrect > 2) {
+        finalBoxTitle.innerHTML = 'Well Done!'
+        finalBoxText.innerHTML =  `You answered ${numCorrect} out of ${myQuestions.length} questions correctly!`
+    }
+    else if(numCorrect <= 2 && numCorrect > 1) {
+        finalBoxTitle.innerHTML = 'So Close!'
+        finalBoxText.innerHTML =  `You answered ${numCorrect} out of ${myQuestions.length} questions correctly, have another go and see if you can get them all right!`
+    }
+    else {
+        finalBoxTitle.innerHTML = 'Unlucky!'
+        finalBoxText.innerHTML = ` You only answered ${numCorrect} out of ${myQuestions.length} questions correctly, but don't worry I'm sure you'll do better next time!`
+    }
+    
+    openPopupFinal();
+});
 }
 
 // define function to show slides
@@ -76,38 +88,103 @@ function showSlide(n){
     slides[currentSlide].classList.remove('active-slide');
     slides[n].classList.add('active-slide');
     currentSlide = n;
-    // hide previous button when on first slide
-    if(currentSlide === 0){
-        previousButton.style.display = 'none';
-    }
-    else{
-        previousButton.style.display = 'inline-block';
-    }
+
     // hide next slide button when on last slide and add submit button
     if(currentSlide === slides.length-1){
         nextButton.style.display = 'none';
         submitButton.style.display = 'inline-block';
     }
-    else{
-        nextButton.style.display = 'inline-block';
+    else {
         submitButton.style.display = 'none';
-    }
+    };
 }
 
 // define functions to make navigation buttons work
 function showNextSlide() {
+    closePopup();
     showSlide(currentSlide + 1);
+    questionNum++;
+    nextButton.style.display = 'none';
 }
 
 function showPrevSlide() {
     showSlide(currentSlide - 1);
 }
 
+// function to open and close answerbox
+function closePopup() {
+    answerBox.style.display = "none";
+};
+
+function openPopup() {
+    answerBox.style.display = "inline-block";
+};
+
+// function to open and close finalbox
+function closePopupFinal() {
+    const finalBox = document.getElementById('finalbox');
+    finalBox.style.display = "none";
+};
+
+function openPopupFinal() {
+    const finalBox = document.getElementById('finalbox');
+
+    finalBox.style.display = "inline-block";
+};
+
+// define function to show answer box on submit
+function finalAnswer() {
+    const answerContainers = quizContainer.querySelectorAll('.answers');
+
+    const answerContainer = answerContainers[questionNum];
+    const selector = `input[name=question${questionNum}]:checked`;
+    const userAnswer = (answerContainer.querySelector(selector) || {}).value;
+    const correctAnswer = myQuestions[questionNum].correctAnswer
+    
+
+    if(questionNum !== myQuestions.length - 1) {
+        if(userAnswer === correctAnswer) {
+            answerBoxTitle.innerHTML = answerCards[questionNum].correct.title;
+            answerBoxText.innerHTML = answerCards[questionNum].correct.content;
+
+            openPopup();
+            nextButton.style.display = 'inline-block';
+        }
+        else{
+            answerBoxTitle.innerHTML = answerCards[questionNum].incorrect.title;
+            answerBoxText.innerHTML = answerCards[questionNum].incorrect.content;
+
+            openPopup();
+            nextButton.style.display = 'inline-block';
+        }
+    }
+    else {
+        if(userAnswer === correctAnswer) {
+            answerBoxTitle.innerHTML = answerCards[questionNum].correct.title;
+            answerBoxText.innerHTML = answerCards[questionNum].correct.content;
+
+            openPopup();
+        }
+        else{
+            answerBoxTitle.innerHTML = answerCards[questionNum].incorrect.title;
+            answerBoxText.innerHTML = answerCards[questionNum].incorrect.content;
+
+            openPopup();
+        }
+    }
+};
+
 // VARIABLEs
 // define variables for HTML elements
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
+const answerBox = document.getElementById('answerbox');
+const answerBoxTitle = document.getElementById('answerboxtitle');
+const answerBoxText = document.getElementById('answerboxtext');
+const finalBox = document.getElementById('finalbox');
+const finalBoxTitle = document.getElementById('finalboxtitle');
+const finalBoxText = document.getElementById('finalboxtext')
 
 // define dictionary of questions and answers
 const myQuestions = [
@@ -143,6 +220,40 @@ const myQuestions = [
     }
 ];
 
+// define dictionary for answer cards
+const answerCards = [
+    {
+        correct: {
+            title: 'Correct!',
+            content: 'blah blah blah'
+        },
+        incorrect: {
+            title: 'Incorrect!',
+            content: 'blah blah'
+        }
+    },
+    {
+        correct: {
+            title: 'Correct!',
+            content: 'blah'
+        },
+        incorrect: {
+            title: 'Incorrect!',
+            content: 'blah blah'
+        }
+    },
+    {
+        correct: {
+            title: 'Correct!',
+            content: 'blah blah'
+        },
+        incorrect: {
+            title: 'Incorrect!',
+            content: 'blah'
+        }
+    }
+];
+
 // display quiz
 buildQuiz();
 
@@ -162,3 +273,7 @@ submitButton.addEventListener('click', showResults);
 // on button click change slides
 previousButton.addEventListener('click', showPrevSlide);
 nextButton.addEventListener('click', showNextSlide)
+
+// on button click show answer card
+const finalAnswerButton = document.getElementById('final-answer');
+finalAnswerButton.addEventListener('click', finalAnswer);
