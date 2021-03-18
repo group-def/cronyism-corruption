@@ -202,7 +202,7 @@ const myQuestions = [
         question: 'In order to help stop the spread of Coronavirus, the UK needs a track and trace system to notify people who have been in contact with the virus and advise them to stay at home. There are a few options available for this, what do you choose? a) use the system that is already being used in the NHS b) build a brand new system c) use the google/ apple track track product d) auction the rights to produce the app',
         answers: {
             A: "Build upon the NHS' existing contact tracing system",
-            B: "Hire Tory peer and wife of Tory MP, Dido Harding, to develop a new system",
+            B: "Hire Dido Harding - Tory peer and wife of Tory MP - to lead the development of a new system",
             C: "Hold an auction to determine who will develop the app through a competitive bidding process",
             D: "Follow other countries in adopting the widely popylar Google or Apple models"
         },
