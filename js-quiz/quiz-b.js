@@ -199,24 +199,54 @@ const myQuestions = [
         correctAnswer: 'D'
     },
     {
-        question: '2',
+        question: 'In order to help stop the spread of Coronavirus, the UK needs a track and trace system to notify people who have been in contact with the virus and advise them to stay at home. There are a few options available for this, what do you choose? a) use the system that is already being used in the NHS b) build a brand new system c) use the google/ apple track track product d) auction the rights to produce the app',
         answers: {
-            a: 'placeholder',
-            b: 'placeholder',
-            c: 'placeholder',
-            d: 'placeholder'
+            A: "Build upon the NHS' existing contact tracing system",
+            B: "Hire Dido Harding - Tory peer and wife of Tory MP - to lead the development of a new system",
+            C: "Hold an auction to determine who will develop the app through a competitive bidding process",
+            D: "Follow other countries in adopting the widely popylar Google or Apple models"
         },
-        correctAnswer: 'b'
+        correctAnswer: 'B'
     },
     {
-        question: '3',
+        question: "In line with the Track and Trace programme, data concerning the results of Coronavirus tests must be collected and stored in order to inform people of when they may have come into contact with the virus. In order to store these large quantities of data, do you:",
         answers: {
-            a: 'placeholder',
-            b: 'placeholder',
-            c: 'placeholder',
-            d: 'placeholder'
+            A: "Design a bespoke solution to store the data in the safest, most effective way",
+            B: "Use existing NHS databases and systems",
+            C: "Store the data on paper",
+            D: "Use Microsoft Excel"
         },
-        correctAnswer: 'c'
+        correctAnswer: "D"
+    },
+    {
+        question: 'In order for the track and trace scheme to work, the vast majority of the UK population have relinquished control of their data, in order for it to be used to help combat the spread of the disease. With all this data now in your hands, what do you do with it? a) use it to for other public benefit b) respect GDPR and keep it private c) use it solely for track and trace and then delete it once finished d) sell to a US databroker',
+        answers: {
+            A: "Sell the data to a US databroker",
+            B: "Respect GDPR regulations and citizens' right to privacy and keep the data private",
+            C: "Use the data solely for track and trace purposes and destroy the dataset once this has been accomplished",
+            D: "Use the data in other schemes to benefit the public"
+        },
+        correctAnswer: 'A'
+    },
+    {
+        question: "Due to the increased strain on the NHS and increased demand for medical supplies, as a result of the Coronavirus pandemic, the government must allocate contracts for the supply of these crucial services. In order to make sure that these contracts are allocated as efficiently as possible, do you: a) give the contracts to companies/ individuals who have donated to the convservative party? b) award the contract to the most suitable company? ",
+        answers: {
+            A: "Pick randomly",
+            B: "Prioritise companies with political connections and hold the majority of negotiations in closed channels",
+            C: "Carefully select companies based on their due diligence records and their suitability for the task",
+            D: "Put the contracts out to open tender and allow the free market to function effectively"
+        },
+        correctAnswer: "B"
+    },
+    {
+        question: "Due to schools and other child care services being closed due to Coronavirus, many of the most vulnerable members of society have been unable to access meals which they would normally depend on, with almost 2 million children going hungry in the UK in 2020. In order to prevent vulnerable children suffering, do you:",
+        answers: {
+            A: "Extend the existing voucher schemes to provide support for vulnerable families",
+            B: "Subsidise discount cards for people to use to buy food and essential items",
+            C: "Pay private contractors to supply food packages to vulnerable families",
+            D: "Provide hardship grants to vulnerable families so that they can afford to eat"
+        },
+        correctAnswer: "C"
     }
 ];
 
@@ -240,6 +270,36 @@ const answerCards = [
         incorrect: {
             title: 'Incorrect!',
             content: 'blah blah'
+        }
+    },
+    {
+        correct: {
+            title: 'Correct!',
+            content: 'blah blah'
+        },
+        incorrect: {
+            title: 'Incorrect!',
+            content: 'blah'
+        }
+    },
+    {
+        correct: {
+            title: 'Correct!',
+            content: 'blah blah'
+        },
+        incorrect: {
+            title: 'Incorrect!',
+            content: 'blah'
+        }
+    },
+    {
+        correct: {
+            title: 'Correct!',
+            content: 'blah blah'
+        },
+        incorrect: {
+            title: 'Incorrect!',
+            content: 'blah'
         }
     },
     {
