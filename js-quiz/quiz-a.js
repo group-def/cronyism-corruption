@@ -305,11 +305,11 @@ const answerCards = [
     {
         correct: {
             title: 'Correct!',
-            content: ""
+            content: "While some of the UK’s most vulnerable children went hungry due to COVID-19, the UK government replaced their existing voucher scheme - which gave vulnerable families £15 per week per child whilst schools were closed - with food parcels intended to last the whole week. Whilst the food packages were supposed to last 10 days and contain food worth around £30, in reality the produce in the packages was sparse and lacking in nutritional value, with the actual value of each parcel coming in at less than £10. The government paid £208 million to private firm, Chartwells, to carry out the scheme, with 4,724,611 boxes being distributed in England alone. Whilst there has been no comment on the cost of each individual box, based on the total cost of the scheme and the total number of boxes delivered, the New Statesman have estimated that each box cost the taxpayer over £44, despite their underwhelming contents."
         },
         incorrect: {
             title: "Incorrect! The correct answer is C!",
-            content: ""
+            content: "While some of the UK’s most vulnerable children went hungry due to COVID-19, the UK government replaced their existing voucher scheme - which gave vulnerable families £15 per week per child whilst schools were closed - with food parcels intended to last the whole week. Whilst the food packages were supposed to last 10 days and contain food worth around £30, in reality the produce in the packages was sparse and lacking in nutritional value, with the actual value of each parcel coming in at less than £10. The government paid £208 million to private firm, Chartwells, to carry out the scheme, with 4,724,611 boxes being distributed in England alone. Whilst there has been no comment on the cost of each individual box, based on the total cost of the scheme and the total number of boxes delivered, the New Statesman have estimated that each box cost the taxpayer over £44, despite their underwhelming contents."
         }
     }
 ];
