@@ -199,12 +199,12 @@ const myQuestions = [
         correctAnswer: 'D'
     },
     {
-        question: 'In order to help stop the spread of Coronavirus, the UK needs a track and trace system to notify people who have been in contact with the virus and advise them to stay at home. There are a few options available for this, what do you choose? a) use the system that is already being used in the NHS b) build a brand new system c) use the google/ apple track track product d) auction the rights to produce the app',
+        question: 'In order to help stop the spread of Coronavirus, the UK needs a track and trace system to notify people who have been in contact with the virus and advise them to stay at home. There are a few options available for this, what do you choose?',
         answers: {
             A: "Build upon the NHS' existing contact tracing system",
             B: "Hire Tory peer and wife of Tory MP, Dido Harding, to develop a new system",
             C: "Hold an auction to determine who will develop the app through a competitive bidding process",
-            D: "Follow other countries in adopting the widely popylar Google or Apple models"
+            D: "Follow other countries in adopting the widely popular Google and Apple models"
         },
         correctAnswer: 'B'
     },
@@ -255,31 +255,61 @@ const answerCards = [
     {
         correct: {
             title: 'Correct!',
-            content: 'blah blah blah'
+            content: 'In April 2020, the UK government ordered a shipment of 400,000 gowns from a Turkish T-Shirt manufacturer in order to deal with the huge demand for Personal Protective Equipment for NHS staff. Unfortunately, the gowns failed to meet UK standards and had to be returned to the supplier, leaving vulnerable NHS staff still desperately short of PPE.'
         },
         incorrect: {
-            title: 'Incorrect!',
-            content: 'blah blah'
+            title: 'Incorrect! The correct answer is D!',
+            content: 'In April 2020, the UK government ordered a shipment of 400,000 gowns from a Turkish T-Shirt manufacturer in order to deal with the huge demand for Personal Protective Equipment for NHS staff. Unfortunately, the gowns failed to meet UK standards and had to be returned to the supplier, leaving vulnerable NHS staff still desperately short of PPE.'
         }
     },
     {
         correct: {
             title: 'Correct!',
-            content: 'blah'
+            content: "Rather than using the widely-adopted Apple and Google model, or adapting the NHS existing system, the UK government decided to develop their own contact-tracing app. The government then appointed Baroness Dido Harding - a Tory peer and wife of Tory MP, John Penrose, who is best known for being the CEO of TalkTalk, where, in 2015, she presided over a data breach which lead to the loss of the financial and personal information of over 150,000 customers - to lead development of the app, despite her lack of experience in public health. Inevitably, following numerous delays to the app's release and countless other mishaps, the government abandoned their 'world-beating' app and decided to instead use the Google and Apple model."
         },
         incorrect: {
-            title: 'Incorrect!',
-            content: 'blah blah'
+            title: 'Incorrect! The correct answer is B!',
+            content: "Rather than using the widely-adopted Apple and Google model, or adapting the NHS existing system, the UK government decided to develop their own contact-tracing app. The government then appointed Baroness Dido Harding - a Tory peer and wife of Tory MP, John Penrose, who is best known for being the CEO of TalkTalk, where, in 2015, she presided over a data breach which lead to the loss of the financial and personal information of over 150,000 customers - to lead development of the app, despite her lack of experience in public health. Inevitably, following numerous delays to the app's release and countless other mishaps, the government abandoned their 'world-beating' app and decided to instead use the Google and Apple model."
         }
     },
     {
         correct: {
             title: 'Correct!',
-            content: 'blah blah'
+            content: "Whilst the logic behind this decision remains unclear, the Government opted to use Microsoft Excel to store results from Covid tests, which had been analysed by commercial firms. Although the use of Excel is not inherently problematic, issues arose due to the use of an old file format - developers used the XLS format which dates back to 1987, rather than the newer XLSX format - which can only store 65,000 rows of data, compared to the newer format which can store over 1 million. This ultimately resulted in the loss of around 15,000 cases over the 8 day period in which the events took place - with almost 2,000 cases being missed each day. This costly mistake left experts baffled, with Professor John Crowcroft of the University of Cambridge claiming the government should have opted for a bespoke solution, as 'nobody would start with [XLS]'."
         },
         incorrect: {
-            title: 'Incorrect!',
-            content: 'blah'
+            title: 'Incorrect! The correct answer is D!',
+            content: "Whilst the logic behind this decision remains unclear, the Government opted to use Microsoft Excel to store the results from Covid tests which had been analysed by commercial firms. Although the use of Excel is not inherently problematic, issues arose due to the use of an old file format - developers used the XLS format which dates back to 1987, rather than the newer XLSX format - which can only store 65,000 rows of data, compared to the newer format which can store over 1 million. This ultimately resulted in the loss of around 15,000 cases over the 8 day period in which the events took place - with almost 2,000 cases being missed each day. This costly mistake left experts baffled, with Professor John Crowcroft of the University of Cambridge claiming the government should have opted for a bespoke solution, as 'nobody would start with [XLS]'."
+        }
+    },
+    {
+        correct: {
+            title: 'Correct!',
+            content: ''
+        },
+        incorrect: {
+            title: 'Incorrect! The correct answer is A!',
+            content: ''
+        }
+    },
+    {
+        correct: {
+            title: 'Correct!',
+            content: "Rather than going through a competitive tender process - where bid for the right to run a service or gain a contract - a report by the National Audit Office found that the British government prioritised companies with political connections when allocating contracts. Reportedly, the government established a 'high-priority lane' for companies who were referred by government officials and ministers, with suppliers in this lane being roughly ten times more likely to obtain contracts than those processed through ordinary channels. Of the £17.3 billion worth of contracts which were awarded, 60% of these contracts were awarded without a competitive process, which has ultimately lead to contracts being granted to companies with little suitability to the task. Most notably, US jewellery company, Saiger, was granted £250 million worth of PPE contracts despite having no experience in supplying in PPE, which resulted in the Department for Health and Social Care overpaying by almost £2.50 per gown. According to the Good Law Project, the government received over 24,000 offers from 16,000 suppliers, many of whom had experience in providing PPE, yet three of the biggest beneficiaries of government contracts were companies specialising in jewellery (Saiger), pest control (Pestfix), and an opaque 'family office' owned through a tax haven (Ayanda)."
+        },
+        incorrect: {
+            title: 'Incorrect! The correct answer is B!',
+            content: "Rather than going through a competitive tender process - where bid for the right to run a service or gain a contract - a report by the National Audit Office found that the British government prioritised companies with political connections when allocating contracts. Reportedly, the government established a 'high-priority lane' for companies who were referred by government officials and ministers, with suppliers in this lane being roughly ten times more likely to obtain contracts than those processed through ordinary channels. Of the £17.3 billion worth of contracts which were awarded, 60% of these contracts were awarded without a competitive process, which has ultimately lead to contracts being granted to companies with little suitability to the task. Most notably, US jewellery company, Saiger, was granted £250 million worth of PPE contracts despite having no experience in supplying in PPE, which resulted in the Department for Health and Social Care overpaying by almost £2.50 per gown. According to the Good Law Project, the government received over 24,000 offers from 16,000 suppliers, many of whom had experience in providing PPE, yet three of the biggest beneficiaries of government contracts were companies specialising in jewellery (Saiger), pest control (Pestfix), and an opaque 'family office' owned through a tax haven (Ayanda)."
+        }
+    },
+    {
+        correct: {
+            title: 'Correct!',
+            content: ""
+        },
+        incorrect: {
+            title: "Incorrect! The correct answer is C!",
+            content: ""
         }
     }
 ];
