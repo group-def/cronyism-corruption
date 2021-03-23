@@ -66,17 +66,17 @@ function showResults(){
     };
     
     // add message and score to final box
-    if(numCorrect > 2) {
+    if(numCorrect == myQuestions.length) {
         finalBoxTitle.innerHTML = 'Well Done!'
-        finalBoxText.innerHTML =  `You answered ${numCorrect} out of ${myQuestions.length} questions correctly!`
+        finalBoxText.innerHTML =  `You answered ${numCorrect} out of ${myQuestions.length} questions correctly! You're clearly well-suited to being a corrupt politician!`
     }
-    else if(numCorrect <= 2 && numCorrect > 1) {
+    else if(numCorrect <= myQuestions.length-1 && numCorrect > myQuestions.length-4) {
         finalBoxTitle.innerHTML = 'So Close!'
         finalBoxText.innerHTML =  `You answered ${numCorrect} out of ${myQuestions.length} questions correctly, have another go and see if you can get them all right!`
     }
     else {
-        finalBoxTitle.innerHTML = 'Unlucky!'
-        finalBoxText.innerHTML = ` You only answered ${numCorrect} out of ${myQuestions.length} questions correctly, but don't worry I'm sure you'll do better next time!`
+        finalBoxTitle.innerHTML = 'Oh Dear!'
+        finalBoxText.innerHTML = ` You only answered ${numCorrect} out of ${myQuestions.length} questions correctly, but don't take it to heart, it probably just means you're not cut out to try to exploit a pandemic, which most people would say is a good thing!`
     }
     
     openPopupFinal();

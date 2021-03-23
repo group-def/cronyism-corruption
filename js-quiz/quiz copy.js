@@ -1,4 +1,4 @@
-// CODE USED FROM https://www.sitepoint.com/simple-javascript-quiz/ nad https://stackoverflow.com/questions/36232733/javascript-quiz-when-user-gets-to-the-result-display-a-popup
+// CODE ADAPTED FROM https://www.sitepoint.com/simple-javascript-quiz/ nad https://stackoverflow.com/questions/36232733/javascript-quiz-when-user-gets-to-the-result-display-a-popup
 
 let questionNum = 0
 
