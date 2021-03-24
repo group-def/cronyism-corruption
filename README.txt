@@ -1,6 +1,6 @@
 Hi, and thanks for helping us with this!
 
-We are working on a project on all the bad decisions taken by the UK government in dealing with the COVID-19 
+We are working on a project on all the decisions taken by the UK government in dealing with the COVID-19 
 pandemic since March 2020. The main part of it is a game which we have developed in two distinct formats which 
 we would like your opinion on! We will ask you to test both formats (it will take ~10 minutes) and to give us 
 your feedback on a Google form (~5 minutes). Whilst this is ultimately to decide which question format we will use, 
@@ -9,8 +9,8 @@ as this is still an early draft so any feedback would be extremely useful. The u
 people in debates around the government's handling of the pandemic, so if you have any comments on how we could 
 better achieve this, please let us know. Thanks in advance!
 
-In order to take the quiz, simply go into the 'Quiz' folder and open the 'Quiz A' - then, afterwards, the 'Quiz B' - 
-HTML files in your browser, and (if everything is working as it should) that should open the quiz! To answer the 
+In order to take the quiz, simply go into the 'Quiz' folder and open the 'Quiz A.html' - then, afterwards, the 'Quiz B.html' - 
+files in your browser, and (if everything is working as it should) that should open the quiz! To answer the 
 questions, click the small round button next to each possible answer, then once you wish to submit that answer, 
 click the 'Final Answer?' button and an answer card - stating whether you were right or wrong and offering some 
 context to the question and answer - will appear. After reading the answer card popup, simply click the 
