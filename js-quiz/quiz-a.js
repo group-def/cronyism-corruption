@@ -221,7 +221,7 @@ const myQuestions = [
     {
         question: 'In order for the track and trace scheme to work, the vast majority of the UK population have relinquished control of their data, in order for it to be used to help combat the spread of the disease. With all this data now in your hands, what do you do with it? a) use it to for other public benefit b) respect GDPR and keep it private c) use it solely for track and trace and then delete it once finished d) sell to a US databroker',
         answers: {
-            A: "Sell the data to a US databroker",
+            A: "Grant a US spy-tech firm access to the data in order for them to train their systems and enhance their profits",
             B: "Respect GDPR regulations and citizens' right to privacy and keep the data private",
             C: "Use the data solely for track and trace purposes and destroy the dataset once this has been accomplished",
             D: "Use the data in other schemes to benefit the public"
@@ -285,11 +285,11 @@ const answerCards = [
     {
         correct: {
             title: 'Correct!',
-            content: ''
+            content: "According to a contract posted online, the UK government gave American spy-tech firm, Palantir, access to sensitive medical records of COVID-19 patients including information on their health conditions, treatments and medicines, X-ray results, test results, and whether a person smokes or drinks. According to Open Democracy, Palantir were granted intellectual property rights and ‘and were allowed to train their models and profit off their unprecedented access to NHS data’. The exact details of the deal and the uses of the data are, however, still shrouded in mystery, with the UK government only publishing details of the agreement after several Freedom of Information requests and the threat of legal action from Open Democracy and Foxglove."
         },
         incorrect: {
             title: 'Incorrect! The correct answer is A!',
-            content: ''
+            content: "According to a contract posted online, the UK government gave American spy-tech firm, Palantir, access to sensitive medical records of COVID-19 patients including information on their health conditions, treatments and medicines, X-ray results, test results, and whether a person smokes or drinks. According to Open Democracy, Palantir were granted intellectual property rights and ‘and were allowed to train their models and profit off their unprecedented access to NHS data’. The exact details of the deal and the uses of the data are, however, still shrouded in mystery, with the UK government only publishing details of the agreement after several Freedom of Information requests and the threat of legal action from Open Democracy and Foxglove."
         }
     },
     {
