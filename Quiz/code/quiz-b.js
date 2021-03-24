@@ -278,7 +278,7 @@ const answerCards = [
             content: "So far the Track and Trace system has cost £22 billion, with some consultants being paid more than £6,000 a day. Test and Trace has admitted it employs 2,500 consultants, at an estimated daily rate of around £1,100, with the highest paid consultants earning £6,624 a day (equivalent to annual salary of £1.5m). The government has spent at least £375m on private consultancy services for Test and Trace. Meanwhile, the Royal College of Nursing general secretary Dame Donna Kinnair said nurses, who have been proposed a 1% pay cut in 2021, 'will be furious to hear of the millions of pounds being spent on private sector consultants'."
         },
         incorrect: {
-            title: 'Incorrect!',
+            title: `Incorrect! The correct answer is ${myQuestions[questionNum].correctAnswer}!`,
             content: "So far the Track and Trace system has cost £22 billion, with some consultants being paid more than £6,000 a day. Test and Trace has admitted it employs 2,500 consultants, at an estimated daily rate of around £1,100, with the highest paid consultants earning £6,624 a day (equivalent to annual salary of £1.5m). The government has spent at least £375m on private consultancy services for Test and Trace. Meanwhile, the Royal College of Nursing general secretary Dame Donna Kinnair said nurses, who have been proposed a 1% pay cut in 2021, 'will be furious to hear of the millions of pounds being spent on private sector consultants'."
         }
     },
@@ -288,7 +288,7 @@ const answerCards = [
             content: "Between May 28 and November 4, on average it took contact-tracers a week to trace contacts of people who tested positive for COVID-19 - too long to be effective given the transmission rate of the virus. On top of that, they were only able to and obtain details of contacts from two-thirds of the 767,074 people who had a positive test. The same data show that most of the people who were contacted by Track and Trace lived in the same household; just one person reached for every two cases was a non-household contact."
         },
         incorrect: {
-            title: 'Incorrect!',
+            title: `Incorrect! The correct answer is ${myQuestions[questionNum].correctAnswer}!`,
             content: "Between May 28 and November 4, on average it took contact-tracers a week to trace contacts of people who tested positive for COVID-19 - too long to be effective given the transmission rate of the virus. On top of that, they were only able to and obtain details of contacts from two-thirds of the 767,074 people who had a positive test. The same data show that most of the people who were contacted by Track and Trace lived in the same household; just one person reached for every two cases was a non-household contact."
         }
     },
@@ -298,7 +298,7 @@ const answerCards = [
             content: "Whilst the logic behind this decision remains unclear, the Government opted to use Microsoft Excel to store results from Covid tests, which had been analysed by commercial firms. Although the use of Excel is not inherently problematic, issues arose due to the use of an old file format - developers used the XLS format which dates back to 1987, rather than the newer XLSX format - which can only store 65,000 rows of data, compared to the newer format which can store over 1 million. This ultimately resulted in the loss of around 15,000 cases over the 8 day period in which the events took place - with almost 2,000 cases being missed each day. This costly mistake left experts baffled, with Professor John Crowcroft of the University of Cambridge claiming the government should have opted for a bespoke solution, as 'nobody would start with [XLS]'."
         },
         incorrect: {
-            title: 'Incorrect!',
+            title: `Incorrect! The correct answer is ${myQuestions[questionNum].correctAnswer}!`,
             content: "Whilst the logic behind this decision remains unclear, the Government opted to use Microsoft Excel to store results from Covid tests, which had been analysed by commercial firms. Although the use of Excel is not inherently problematic, issues arose due to the use of an old file format - developers used the XLS format which dates back to 1987, rather than the newer XLSX format - which can only store 65,000 rows of data, compared to the newer format which can store over 1 million. This ultimately resulted in the loss of around 15,000 cases over the 8 day period in which the events took place - with almost 2,000 cases being missed each day. This costly mistake left experts baffled, with Professor John Crowcroft of the University of Cambridge claiming the government should have opted for a bespoke solution, as 'nobody would start with [XLS]'."
         }
     },
@@ -308,7 +308,7 @@ const answerCards = [
             content: 'In April 2020, the UK government ordered a shipment of 400,000 gowns from a Turkish T-Shirt manufacturer in order to deal with the huge demand for Personal Protective Equipment for NHS staff. Unfortunately, the gowns failed to meet UK standards and had to be returned to the supplier, leaving vulnerable NHS staff still desperately short of PPE.'
         },
         incorrect: {
-            title: 'Incorrect!',
+            title: `Incorrect! The correct answer is ${myQuestions[questionNum].correctAnswer}!`,
             content: 'In April 2020, the UK government ordered a shipment of 400,000 gowns from a Turkish T-Shirt manufacturer in order to deal with the huge demand for Personal Protective Equipment for NHS staff. Unfortunately, the gowns failed to meet UK standards and had to be returned to the supplier, leaving vulnerable NHS staff still desperately short of PPE.'
         }
     },
@@ -318,7 +318,7 @@ const answerCards = [
             content: "Rather than going through a competitive tender process - where bid for the right to run a service or gain a contract - a report by the National Audit Office found that the British government prioritised companies with political connections when allocating contracts. Reportedly, the government established a 'high-priority lane' for companies who were referred by government officials and ministers, with suppliers in this lane being roughly ten times more likely to obtain contracts than those processed through ordinary channels." 
         },
         incorrect: {
-            title: 'Incorrect!',
+            title: `Incorrect! The correct answer is ${myQuestions[questionNum].correctAnswer}!`,
             content: "Rather than going through a competitive tender process - where bid for the right to run a service or gain a contract - a report by the National Audit Office found that the British government prioritised companies with political connections when allocating contracts. Reportedly, the government established a 'high-priority lane' for companies who were referred by government officials and ministers, with suppliers in this lane being roughly ten times more likely to obtain contracts than those processed through ordinary channels."
         }
     },
@@ -328,7 +328,7 @@ const answerCards = [
             content: "Of the £17.3 billion worth of contracts which were awarded, roughly 67% of these contracts were awarded without a competitive process, which has ultimately lead to contracts being granted to companies with little suitability to the task. Most notably, US jewellery company, Saiger, was granted £250 million worth of PPE contracts despite having no experience in supplying in PPE, which resulted in the Department for Health and Social Care overpaying by almost £2.50 per gown. According to the Good Law Project, the government received over 24,000 offers from 16,000 suppliers, many of whom had experience in providing PPE, yet three of the biggest beneficiaries of government contracts were companies specialising in jewellery (Saiger), pest control (Pestfix), and an opaque 'family office' owned through a tax haven (Ayanda)."
         },
         incorrect: {
-            title: 'Incorrect!',
+            title: `Incorrect! The correct answer is ${myQuestions[questionNum].correctAnswer}!`,
             content: "Of the £17.3 billion worth of contracts which were awarded, roughly 67% of these contracts were awarded without a competitive process, which has ultimately lead to contracts being granted to companies with little suitability to the task. Most notably, US jewellery company, Saiger, was granted £250 million worth of PPE contracts despite having no experience in supplying in PPE, which resulted in the Department for Health and Social Care overpaying by almost £2.50 per gown. According to the Good Law Project, the government received over 24,000 offers from 16,000 suppliers, many of whom had experience in providing PPE, yet three of the biggest beneficiaries of government contracts were companies specialising in jewellery (Saiger), pest control (Pestfix), and an opaque 'family office' owned through a tax haven (Ayanda)."
         }
     },
@@ -338,7 +338,7 @@ const answerCards = [
             content: "While some of the UK’s most vulnerable children went hungry due to COVID-19, the UK government replaced their existing voucher scheme - which gave vulnerable families £15 per week per child whilst schools were closed - with food parcels intended to last the whole week. Whilst the food packages were supposed to last 10 days and contain food worth around £30, in reality the produce in the packages was sparse and lacking in nutritional value, with the actual value of each parcel coming in at less than £10. The government paid £208 million to private firm, Chartwells, to carry out the scheme, with 4,724,611 boxes being distributed in England alone. Whilst there has been no comment on the cost of each individual box, based on the total cost of the scheme and the total number of boxes delivered, the New Statesman have estimated that each box cost the taxpayer over £44, despite their underwhelming contents."
         },
         incorrect: {
-            title: 'Incorrect!',
+            title: `Incorrect! The correct answer is ${myQuestions[questionNum].correctAnswer}!`,
             content: "While some of the UK’s most vulnerable children went hungry due to COVID-19, the UK government replaced their existing voucher scheme - which gave vulnerable families £15 per week per child whilst schools were closed - with food parcels intended to last the whole week. Whilst the food packages were supposed to last 10 days and contain food worth around £30, in reality the produce in the packages was sparse and lacking in nutritional value, with the actual value of each parcel coming in at less than £10. The government paid £208 million to private firm, Chartwells, to carry out the scheme, with 4,724,611 boxes being distributed in England alone. Whilst there has been no comment on the cost of each individual box, based on the total cost of the scheme and the total number of boxes delivered, the New Statesman have estimated that each box cost the taxpayer over £44, despite their underwhelming contents."
         }
     },
@@ -348,7 +348,7 @@ const answerCards = [
             content: 'blah'
         },
         incorrect: {
-            title: 'Incorrect!',
+            title: `Incorrect! The correct answer is ${myQuestions[questionNum].correctAnswer}!`,
             content: 'blah blah'
         }
     }

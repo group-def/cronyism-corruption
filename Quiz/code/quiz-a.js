@@ -219,7 +219,7 @@ const myQuestions = [
         correctAnswer: "D"
     },
     {
-        question: 'In order for the track and trace scheme to work, the vast majority of the UK population have relinquished control of their data, in order for it to be used to help combat the spread of the disease. With all this data now in your hands, what do you do with it? a) use it to for other public benefit b) respect GDPR and keep it private c) use it solely for track and trace and then delete it once finished d) sell to a US databroker',
+        question: 'In order for the track and trace scheme to work, the vast majority of the UK population have relinquished control of their data, in order for it to be used to help combat the spread of the disease. With all this data now in your hands, what do you do with it?',
         answers: {
             A: "Grant a US spy-tech firm access to the data in order for them to train their systems and enhance their profits",
             B: "Respect GDPR regulations and citizens' right to privacy and keep the data private",
@@ -229,7 +229,7 @@ const myQuestions = [
         correctAnswer: 'A'
     },
     {
-        question: "Due to the increased strain on the NHS and increased demand for medical supplies, as a result of the Coronavirus pandemic, the government must allocate contracts for the supply of these crucial services. In order to make sure that these contracts are allocated as efficiently as possible, do you: a) give the contracts to companies/ individuals who have donated to the convservative party? b) award the contract to the most suitable company? ",
+        question: "Due to the increased strain on the NHS and increased demand for medical supplies, as a result of the Coronavirus pandemic, the government must allocate contracts for the supply of these crucial services. In order to make sure that these contracts are allocated as efficiently as possible, do you:",
         answers: {
             A: "Pick randomly",
             B: "Prioritise companies with political connections and hold the majority of negotiations in closed channels",
@@ -258,7 +258,7 @@ const answerCards = [
             content: 'In April 2020, the UK government ordered a shipment of 400,000 gowns from a Turkish T-Shirt manufacturer in order to deal with the huge demand for Personal Protective Equipment for NHS staff. Unfortunately, the gowns failed to meet UK standards and had to be returned to the supplier, leaving vulnerable NHS staff still desperately short of PPE.'
         },
         incorrect: {
-            title: 'Incorrect! The correct answer is D!',
+            title: `Incorrect! The correct answer is ${myQuestions[questionNum].correctAnswer}!`,
             content: 'In April 2020, the UK government ordered a shipment of 400,000 gowns from a Turkish T-Shirt manufacturer in order to deal with the huge demand for Personal Protective Equipment for NHS staff. Unfortunately, the gowns failed to meet UK standards and had to be returned to the supplier, leaving vulnerable NHS staff still desperately short of PPE.'
         }
     },
@@ -268,7 +268,7 @@ const answerCards = [
             content: "Rather than using the widely-adopted Apple and Google model, or adapting the NHS existing system, the UK government decided to develop their own contact-tracing app. The government then appointed Baroness Dido Harding - a Tory peer and wife of Tory MP, John Penrose, who is best known for being the CEO of TalkTalk, where, in 2015, she presided over a data breach which lead to the loss of the financial and personal information of over 150,000 customers - to lead development of the app, despite her lack of experience in public health. Inevitably, following numerous delays to the app's release and countless other mishaps, the government abandoned their 'world-beating' app and decided to instead use the Google and Apple model."
         },
         incorrect: {
-            title: 'Incorrect! The correct answer is B!',
+            title: `Incorrect! The correct answer is ${myQuestions[questionNum].correctAnswer}!`,
             content: "Rather than using the widely-adopted Apple and Google model, or adapting the NHS existing system, the UK government decided to develop their own contact-tracing app. The government then appointed Baroness Dido Harding - a Tory peer and wife of Tory MP, John Penrose, who is best known for being the CEO of TalkTalk, where, in 2015, she presided over a data breach which lead to the loss of the financial and personal information of over 150,000 customers - to lead development of the app, despite her lack of experience in public health. Inevitably, following numerous delays to the app's release and countless other mishaps, the government abandoned their 'world-beating' app and decided to instead use the Google and Apple model."
         }
     },
@@ -278,7 +278,7 @@ const answerCards = [
             content: "Whilst the logic behind this decision remains unclear, the Government opted to use Microsoft Excel to store results from Covid tests, which had been analysed by commercial firms. Although the use of Excel is not inherently problematic, issues arose due to the use of an old file format - developers used the XLS format which dates back to 1987, rather than the newer XLSX format - which can only store 65,000 rows of data, compared to the newer format which can store over 1 million. This ultimately resulted in the loss of around 15,000 cases over the 8 day period in which the events took place - with almost 2,000 cases being missed each day. This costly mistake left experts baffled, with Professor John Crowcroft of the University of Cambridge claiming the government should have opted for a bespoke solution, as 'nobody would start with [XLS]'."
         },
         incorrect: {
-            title: 'Incorrect! The correct answer is D!',
+            title: `Incorrect! The correct answer is ${myQuestions[questionNum].correctAnswer}!`,
             content: "Whilst the logic behind this decision remains unclear, the Government opted to use Microsoft Excel to store the results from Covid tests which had been analysed by commercial firms. Although the use of Excel is not inherently problematic, issues arose due to the use of an old file format - developers used the XLS format which dates back to 1987, rather than the newer XLSX format - which can only store 65,000 rows of data, compared to the newer format which can store over 1 million. This ultimately resulted in the loss of around 15,000 cases over the 8 day period in which the events took place - with almost 2,000 cases being missed each day. This costly mistake left experts baffled, with Professor John Crowcroft of the University of Cambridge claiming the government should have opted for a bespoke solution, as 'nobody would start with [XLS]'."
         }
     },
@@ -288,7 +288,7 @@ const answerCards = [
             content: "According to a contract posted online, the UK government gave American spy-tech firm, Palantir, access to sensitive medical records of COVID-19 patients including information on their health conditions, treatments and medicines, X-ray results, test results, and whether a person smokes or drinks. According to Open Democracy, Palantir were granted intellectual property rights and ‘and were allowed to train their models and profit off their unprecedented access to NHS data’. The exact details of the deal and the uses of the data are, however, still shrouded in mystery, with the UK government only publishing details of the agreement after several Freedom of Information requests and the threat of legal action from Open Democracy and Foxglove."
         },
         incorrect: {
-            title: 'Incorrect! The correct answer is A!',
+            title: `Incorrect! The correct answer is ${myQuestions[questionNum].correctAnswer}!`,
             content: "According to a contract posted online, the UK government gave American spy-tech firm, Palantir, access to sensitive medical records of COVID-19 patients including information on their health conditions, treatments and medicines, X-ray results, test results, and whether a person smokes or drinks. According to Open Democracy, Palantir were granted intellectual property rights and ‘and were allowed to train their models and profit off their unprecedented access to NHS data’. The exact details of the deal and the uses of the data are, however, still shrouded in mystery, with the UK government only publishing details of the agreement after several Freedom of Information requests and the threat of legal action from Open Democracy and Foxglove."
         }
     },
@@ -298,7 +298,7 @@ const answerCards = [
             content: "Rather than going through a competitive tender process - where bid for the right to run a service or gain a contract - a report by the National Audit Office found that the British government prioritised companies with political connections when allocating contracts. Reportedly, the government established a 'high-priority lane' for companies who were referred by government officials and ministers, with suppliers in this lane being roughly ten times more likely to obtain contracts than those processed through ordinary channels. Of the £17.3 billion worth of contracts which were awarded, 60% of these contracts were awarded without a competitive process, which has ultimately lead to contracts being granted to companies with little suitability to the task. Most notably, US jewellery company, Saiger, was granted £250 million worth of PPE contracts despite having no experience in supplying in PPE, which resulted in the Department for Health and Social Care overpaying by almost £2.50 per gown. According to the Good Law Project, the government received over 24,000 offers from 16,000 suppliers, many of whom had experience in providing PPE, yet three of the biggest beneficiaries of government contracts were companies specialising in jewellery (Saiger), pest control (Pestfix), and an opaque 'family office' owned through a tax haven (Ayanda)."
         },
         incorrect: {
-            title: 'Incorrect! The correct answer is B!',
+            title: `Incorrect! The correct answer is ${myQuestions[questionNum].correctAnswer}!`,
             content: "Rather than going through a competitive tender process - where bid for the right to run a service or gain a contract - a report by the National Audit Office found that the British government prioritised companies with political connections when allocating contracts. Reportedly, the government established a 'high-priority lane' for companies who were referred by government officials and ministers, with suppliers in this lane being roughly ten times more likely to obtain contracts than those processed through ordinary channels. Of the £17.3 billion worth of contracts which were awarded, 60% of these contracts were awarded without a competitive process, which has ultimately lead to contracts being granted to companies with little suitability to the task. Most notably, US jewellery company, Saiger, was granted £250 million worth of PPE contracts despite having no experience in supplying in PPE, which resulted in the Department for Health and Social Care overpaying by almost £2.50 per gown. According to the Good Law Project, the government received over 24,000 offers from 16,000 suppliers, many of whom had experience in providing PPE, yet three of the biggest beneficiaries of government contracts were companies specialising in jewellery (Saiger), pest control (Pestfix), and an opaque 'family office' owned through a tax haven (Ayanda)."
         }
     },
@@ -308,7 +308,7 @@ const answerCards = [
             content: "While some of the UK’s most vulnerable children went hungry due to COVID-19, the UK government replaced their existing voucher scheme - which gave vulnerable families £15 per week per child whilst schools were closed - with food parcels intended to last the whole week. Whilst the food packages were supposed to last 10 days and contain food worth around £30, in reality the produce in the packages was sparse and lacking in nutritional value, with the actual value of each parcel coming in at less than £10. The government paid £208 million to private firm, Chartwells, to carry out the scheme, with 4,724,611 boxes being distributed in England alone. Whilst there has been no comment on the cost of each individual box, based on the total cost of the scheme and the total number of boxes delivered, the New Statesman have estimated that each box cost the taxpayer over £44, despite their underwhelming contents."
         },
         incorrect: {
-            title: "Incorrect! The correct answer is C!",
+            title: `Incorrect! The correct answer is ${myQuestions[questionNum].correctAnswer}!`,
             content: "While some of the UK’s most vulnerable children went hungry due to COVID-19, the UK government replaced their existing voucher scheme - which gave vulnerable families £15 per week per child whilst schools were closed - with food parcels intended to last the whole week. Whilst the food packages were supposed to last 10 days and contain food worth around £30, in reality the produce in the packages was sparse and lacking in nutritional value, with the actual value of each parcel coming in at less than £10. The government paid £208 million to private firm, Chartwells, to carry out the scheme, with 4,724,611 boxes being distributed in England alone. Whilst there has been no comment on the cost of each individual box, based on the total cost of the scheme and the total number of boxes delivered, the New Statesman have estimated that each box cost the taxpayer over £44, despite their underwhelming contents."
         }
     }
