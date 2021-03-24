@@ -345,11 +345,11 @@ const answerCards = [
     {
         correct: {
             title: 'Correct!',
-            content: 'blah'
+            content: "Based on its performance at the end of 2020, SAGE believed that NHS Test and Trace had only had a “marginal impact” on the spread of Covid-19. Criticism of the system range from its excessively centralised structure, which made it harder for contact tracers to make sense of local specificities (such as language spoken by the people contacted, or their access to technology, their job and working hours), to a lack of preparedness and training for non-clinical contact tracers"
         },
         incorrect: {
             title: `Incorrect! The correct answer is ${myQuestions[questionNum].correctAnswer}!`,
-            content: 'blah blah'
+            content: "Based on its performance at the end of 2020, SAGE believed that NHS Test and Trace had only had a “marginal impact” on the spread of Covid-19. Criticism of the system range from its excessively centralised structure, which made it harder for contact tracers to make sense of local specificities (such as language spoken by the people contacted, or their access to technology, their job and working hours), to a lack of preparedness and training for non-clinical contact tracers"
         }
     }
 ];
