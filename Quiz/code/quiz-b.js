@@ -275,21 +275,21 @@ const answerCards = [
     {
         correct: {
             title: 'Correct!',
-            content: 'blah blah blah'
+            content: "So far the Track and Trace system has cost £22 billion, with some consultants being paid more than £6,000 a day. Test and Trace has admitted it employs 2,500 consultants, at an estimated daily rate of around £1,100, with the highest paid consultants earning £6,624 a day (equivalent to annual salary of £1.5m). The government has spent at least £375m on private consultancy services for Test and Trace. Meanwhile, the Royal College of Nursing general secretary Dame Donna Kinnair said nurses, who have been proposed a 1% pay cut in 2021, 'will be furious to hear of the millions of pounds being spent on private sector consultants'."
         },
         incorrect: {
             title: 'Incorrect!',
-            content: 'blah blah'
+            content: "So far the Track and Trace system has cost £22 billion, with some consultants being paid more than £6,000 a day. Test and Trace has admitted it employs 2,500 consultants, at an estimated daily rate of around £1,100, with the highest paid consultants earning £6,624 a day (equivalent to annual salary of £1.5m). The government has spent at least £375m on private consultancy services for Test and Trace. Meanwhile, the Royal College of Nursing general secretary Dame Donna Kinnair said nurses, who have been proposed a 1% pay cut in 2021, 'will be furious to hear of the millions of pounds being spent on private sector consultants'."
         }
     },
     {
         correct: {
             title: 'Correct!',
-            content: 'blah'
+            content: "Between May 28 and November 4, on average it took contact-tracers a week to trace contacts of people who tested positive for COVID-19 - too long to be effective given the transmission rate of the virus. On top of that, they were only able to and obtain details of contacts from two-thirds of the 767,074 people who had a positive test. The same data show that most of the people who were contacted by Track and Trace lived in the same household; just one person reached for every two cases was a non-household contact."
         },
         incorrect: {
             title: 'Incorrect!',
-            content: 'blah blah'
+            content: "Between May 28 and November 4, on average it took contact-tracers a week to trace contacts of people who tested positive for COVID-19 - too long to be effective given the transmission rate of the virus. On top of that, they were only able to and obtain details of contacts from two-thirds of the 767,074 people who had a positive test. The same data show that most of the people who were contacted by Track and Trace lived in the same household; just one person reached for every two cases was a non-household contact."
         }
     },
     {
