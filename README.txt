@@ -3,7 +3,7 @@ Hi, and thanks for helping us with this!
 We are working on a project on all the decisions taken by the UK government in dealing with the COVID-19 
 pandemic since March 2020. The main part of it is a game which we have developed in two distinct formats which 
 we would like your opinion on! We will ask you to test both formats (it will take ~10 minutes) and to give us 
-your feedback on a Google form (~5 minutes). Whilst this is ultimately to decide which question format we will use, 
+your feedback on a Google form (~5 minutes), to which there is a link at the bottom of this document. Whilst this is ultimately to decide which question format we will use, 
 any feedback on the general quality will be appreciated, e.g. if certain questions or answer cards don't make sense, 
 as this is still an early draft so any feedback would be extremely useful. The ultimate goal of our quiz is to engage 
 people in debates around the government's handling of the pandemic, so if you have any comments on how we could 
@@ -29,4 +29,4 @@ of the government's response to the pandemic, to which you must select the corre
 Can you help us figure out which format works best?
 Thanks a lot for your help! 
 
-[insert link to feedback form]
+Feedback form: https://docs.google.com/forms/d/e/1FAIpQLSfDpVB4Lu8Z7VHWqHa35Nd7j82x3UTn0d3Ym4FRsfH71jPABQ/viewform 
