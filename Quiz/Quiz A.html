@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <link rel=stylesheet type=text/css href='code/style.css'>
+</head>
+<body>
+    <div class='quiz-container'>
+        <div id='quiz'></div>
+    </div>
+    <!-- <button id="previous">Previous Question</button> -->
+    <button id="final-answer">Final Answer?</button>
+    <button id='next'>Next Question</button>
+    <button id='previous'>Previous Question</button>
+    <button id='submit'>Submit Answers</button>
+    <div id='results'></div>
+    <div class='answerbox' id='answerbox'>
+        <div class='answerboxbar'><a onclick="closePopup()" class='closebutton'>&times;</a></div>
+        <div class='answerboxtitle' id='answerboxtitle'></div>
+        <div class='answerboxtext' id='answerboxtext'></div>
+    </div>
+    <div class='answerbox' id='finalbox'>
+        <div class='answerboxbar'><a onclick="closePopupFinal()" class='closebutton'>&times;</a></div>
+        <div class='answerboxtitle' id='finalboxtitle'></div>
+        <div class='answerboxtext' id='finalboxtext'></div>
+    </div>
+
+
+    <script src="code/quiz-a.js"></script>
+
+</body>
+</html>
+
