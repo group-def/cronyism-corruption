@@ -145,6 +145,9 @@
 
 #next {
     display: none;
+    position: fixed;
+    top: 50%;
+    left: 45%;
 }
 
 #previous {
@@ -153,4 +156,18 @@
 
 #submit {
     display: none;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+}
+
+#final-answer {
+    position: fixed;
+    top: 50%;
+    left: 45%;
+}
+
+.question {
+  background-color: cornflowerblue;
+  padding: 20px;
 }
