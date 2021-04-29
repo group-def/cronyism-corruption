@@ -21,11 +21,13 @@ function buildQuiz(){
         for(letter in currentQuestion.answers){
             // add a HTML radio button
             answers.push(
-                `<label>
-                    <input type="radio" name="question${questionNumber}" value="${letter}">
-                    ${letter} :
-                    ${currentQuestion.answers[letter]}
-                </label>
+                `<div>
+                    <label>
+                        <input type="radio" name="question${questionNumber}" value="${letter}">
+                        ${letter} : 
+                        ${currentQuestion.answers[letter]}
+                    </label>
+                </div>
                 <br>`
             );
         }
@@ -33,8 +35,11 @@ function buildQuiz(){
         // add question and answers to the output
         output.push(
             `<div class="slide">
-                <div class="question"> ${currentQuestion.question} </div>
-                <div class="answers"> ${answers.join('')} </div>
+                <div class="question">
+                    <h4 class='text-center'>${currentQuestion.question}</h3>
+                </div>
+                <br>
+                <div class="answers text-center">${answers.join('')} </div>
             </div>`
         );
     });
