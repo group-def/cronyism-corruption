@@ -4,11 +4,57 @@
   background-color: cornflowerblue;
   padding: 100px;
   width: 100%;
-  opacity: 0.64;
+  opacity: 0.9;
+}
+
+html {
+  overflow: hidden;
 }
 
 body {
-  background-image: url('https://media.gq-magazine.co.uk/photos/5d13a8d57fcc8eec75821063/16:9/w_1920,c_limit/boris-johnson-03-gq-10jun19_getty_b.jpg');
+  /*background-image: url('https://media.gq-magazine.co.uk/photos/5d13a8d57fcc8eec75821063/16:9/w_1920,c_limit/boris-johnson-03-gq-10jun19_getty_b.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  height: 100vh;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax-wrapper {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 20vh;
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+}
+.parallax-wrapper::before {
+  content:"";
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-image: url('https://media.gq-magazine.co.uk/photos/5d13a8d57fcc8eec75821063/16:9/w_1920,c_limit/boris-johnson-03-gq-10jun19_getty_b.jpg');
+  position: absolute;
+  z-index: -1;
+  transform: translateZ(-1px) scale(2);
+}
+.regular-wrapper {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20vh;
+    z-index: 2;
+    position: relative;
+    background-image: url('https://d1e00ek4ebabms.cloudfront.net/production/bb74cbee-3a01-4cda-9d60-d66968278134.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 50px;
+  width: 100%;
+  background: cornflowerblue;
+  opacity: 0.9;
 }
