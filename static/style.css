@@ -36,6 +36,8 @@ body {
   top: 0;
   left: 0;
   background-image: url('https://media.gq-magazine.co.uk/photos/5d13a8d57fcc8eec75821063/16:9/w_1920,c_limit/boris-johnson-03-gq-10jun19_getty_b.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   z-index: -1;
   transform: translateZ(-1px) scale(2);
