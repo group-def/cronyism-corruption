@@ -1,0 +1,7 @@
+#banner {
+  position: fixed;
+  top: 20%;
+  background-color: cornflowerblue;
+  padding: 100px;
+  width: 100%;
+}
