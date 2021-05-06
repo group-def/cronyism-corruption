@@ -22,14 +22,14 @@ body {
   overflow-y: auto;
 }
 
-.parallax-wrapper {
+.parallax-wrapper1 {
   width: 100vw;
   height: 100vh;
   padding-top: 20vh;
   box-sizing: border-box;
   transform-style: preserve-3d;
 }
-.parallax-wrapper::before {
+.parallax-wrapper1::before {
   content:"";
   width: 100vw;
   height: 100vh;
@@ -59,4 +59,31 @@ body {
   width: 100%;
   background: cornflowerblue;
   opacity: 0.9;
+}
+
+
+.parallax-wrapper2 {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 20vh;
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+}
+.parallax-wrapper2::before {
+  content:"";
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-image: url('https://e3.365dm.com/21/03/2048x1152/skynews-haircut-boris-johnson_5317669.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  transform: translateZ(-1px) scale(2);
+}
+
+#graph {
+  position: relative;
+  left: 25%
 }
