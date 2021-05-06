@@ -168,3 +168,9 @@
   background-color: cornflowerblue;
   padding: 20px;
 }
+
+body {
+  background-image: url('../../static/img/coviduk.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
