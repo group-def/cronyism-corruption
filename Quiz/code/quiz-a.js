@@ -21,7 +21,7 @@ function buildQuiz(){
         for(letter in currentQuestion.answers){
             // add a HTML radio button
             answers.push(
-                `<div>
+                `<div class='answer-container'>
                     <label>
                         <input type="radio" name="question${questionNumber}" value="${letter}">
                         ${letter} :
