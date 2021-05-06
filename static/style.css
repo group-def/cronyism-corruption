@@ -35,7 +35,7 @@ body {
   height: 100vh;
   top: 0;
   left: 0;
-  background-image: url('https://media.gq-magazine.co.uk/photos/5d13a8d57fcc8eec75821063/16:9/w_1920,c_limit/boris-johnson-03-gq-10jun19_getty_b.jpg');
+  background-image: url('img/coviduk.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -48,7 +48,7 @@ body {
     padding-top: 20vh;
     z-index: 2;
     position: relative;
-    background-image: url('https://d1e00ek4ebabms.cloudfront.net/production/bb74cbee-3a01-4cda-9d60-d66968278134.jpg');
+    background-image: url('img/dohsc.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -75,7 +75,7 @@ body {
   height: 100vh;
   top: 0;
   left: 0;
-  background-image: url('https://e3.365dm.com/21/03/2048x1152/skynews-haircut-boris-johnson_5317669.jpg');
+  background-image: url('img/borisrishi.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
