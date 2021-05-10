@@ -260,7 +260,7 @@ const answerCards = [
     {
         correct: {
             title: 'Correct!',
-            content: 'In April 2020, the UK government ordered a shipment of 400,000 gowns from a Turkish T-Shirt manufacturer in order to deal with the huge demand for Personal Protective Equipment for NHS staff. Unfortunately, the gowns failed to meet UK standards and had to be returned to the supplier, leaving vulnerable NHS staff still desperately short of PPE.'
+            content: 'In April 2020, <a href="https://www.theguardian.com/world/2020/may/07/all-400000-gowns-flown-from-turkey-for-nhs-fail-uk-standards">the UK government ordered a shipment of 400,000 gowns from a Turkish T-Shirt manufacturer</a> in order to deal with the huge demand for Personal Protective Equipment for NHS staff. Unfortunately, the gowns failed to meet UK standards and had to be returned to the supplier, leaving vulnerable NHS staff still desperately short of PPE.'
         },
         incorrect: {
             title: `Incorrect! The correct answer is D!`,
