@@ -83,8 +83,8 @@
 
 #next {
     display: none;
-    position: fixed;
-    right: 20%;
+    position: relative;
+    left: 40%; 
 }
 
 #previous {
