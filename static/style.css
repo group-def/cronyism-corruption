@@ -1,6 +1,6 @@
 #banner {
   position: fixed;
-  top: 20%;
+  top: 25%;
   background-color: cornflowerblue;
   padding: 100px;
   width: 100%;
@@ -20,6 +20,12 @@ body {
   transform-style: preserve-3d;
   overflow-x: hidden;
   overflow-y: auto;
+}
+
+#bg {
+  background-image: url('img/coviduk.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallax-wrapper1 {
@@ -48,9 +54,10 @@ body {
     padding-top: 20vh;
     z-index: 2;
     position: relative;
-    background-image: url('img/dohsc.jpg');
+    background-color: cornflowerblue;
+    /* background-image: url('img/dohsc.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 .content {

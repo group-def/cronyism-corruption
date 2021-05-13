@@ -137,6 +137,19 @@ function openPopupFinal() {
     finalBox.style.display = "inline-block";
 };
 
+// function to open and close intro pop up
+function openPopupIntro() {
+    const introBox = document.getElementById('introbox');
+
+    introBox.style.display = 'inline-block';
+};
+
+function closePopupIntro() {
+    const introBox = document.getElementById('introbox');
+
+    introBox.style.display = 'none';
+}
+
 // define function to show answer box on submit
 function finalAnswer() {
     const answerContainers = quizContainer.querySelectorAll('.answers');
@@ -184,6 +197,9 @@ function finalAnswer() {
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
+const introBox = document.getElementById('introbox');
+const introBoxTitle = document.getElementById('introboxtitle');
+const introBoxText = document.getElementById('introboxtext');
 const answerBox = document.getElementById('answerbox');
 const answerBoxTitle = document.getElementById('answerboxtitle');
 const answerBoxText = document.getElementById('answerboxtext');
@@ -320,6 +336,8 @@ const answerCards = [
 ];
 
 // display quiz
+closePopup();
+closePopupFinal();
 buildQuiz();
 
 // PAGINATION

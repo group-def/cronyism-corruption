@@ -127,3 +127,11 @@ body {
   border-radius: 25px;
   background-color: cornflowerblue;
 }
+
+#introbox {
+  height: 80vh;
+  width: 70vw;
+  position: absolute;
+  bottom: 10vh;
+  left: 15vw;
+}
