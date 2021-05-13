@@ -68,6 +68,14 @@ body {
   opacity: 0.9;
 }
 
+.content-stat {
+  margin: 0 auto;
+  padding: 50px;
+  width: 60%;
+  background: cornflowerblue;
+  opacity: 0.9;
+}
+
 
 .parallax-wrapper2 {
   width: 100vw;

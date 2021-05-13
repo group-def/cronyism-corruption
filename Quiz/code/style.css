@@ -84,7 +84,7 @@
 #next {
     display: none;
     position: relative;
-    left: 40%; 
+    left: 40%;
 }
 
 #previous {
@@ -100,6 +100,12 @@
 #final-answer {
     position: fixed;
     left: 45%;
+}
+
+#article-link {
+  position: relative;
+  left: 40%;
+  color: black;
 }
 
 .question {

@@ -210,7 +210,7 @@ const finalBoxText = document.getElementById('finalboxtext')
 // define dictionary of questions and answers
 const myQuestions = [
     {
-        question: "During the first few months of the pandemic the UK saw an ever-growing demand for Personal Protective Equipment. As the death toll from COVID-19 worsened through March and April, how did the UK Government respond to this demand for PPE? Did they:",
+        question: "During the first few months of the pandemic the UK saw an ever-growing demand for Personal Protective Equipment. As the death toll from COVID-19 worsened through March and April, how did the government respond to this demand for PPE? Did they:",
         answers: {
             A: 'Choose a company based on their experience producing and supplying PPE',
             B: 'Accept offers of help from companies who have volunteered their services during the pandemic',
