@@ -210,9 +210,9 @@ const finalBoxText = document.getElementById('finalboxtext')
 // define dictionary of questions and answers
 const myQuestions = [
     {
-        question: "During the first few months of the pandemic the UK saw an ever-growing demand for Personal Protective Equipment. As a government Minister for the Department of Health, you have been tasked with supplying the NHS with PPE to help keep their vital staff members safe while treating those suffering from COVID-19. In order to supply this essential PPE to doctors and nurses throughout the country, do you:",
+        question: "During the first few months of the pandemic the UK saw an ever-growing demand for Personal Protective Equipment. As the death toll from COVID-19 worsened through March and April, how did the UK Government respond to this demand for PPE? Did they:",
         answers: {
-            A: 'Choose a well-established company with experience producing and supplying PPE',
+            A: 'Choose a company based on their experience producing and supplying PPE',
             B: 'Accept offers of help from companies who have volunteered their services during the pandemic',
             C: 'Utilise various local companies around the country in order to get the PPE to where it is needed as quickly as possible',
             D: 'Buy 400,000 gowns from a Turkish T-Shirt manufacturer'
@@ -220,7 +220,7 @@ const myQuestions = [
         correctAnswer: 'D'
     },
     {
-        question: 'In order to help stop the spread of COVID-19, the UK needs a track and trace system to notify people who have been in contact with the virus and advise them to stay at home. There are a few options available for this, what do you choose?',
+        question: 'In order to help stop the spread of COVID-19, a contact tracing system was implemented to notify people who have been in contact with the virus and advise them to stay at home. How did the UK Government decide to go about building this system? Did they:',
         answers: {
             A: "Build upon the NHS' existing contact tracing system",
             B: "Hire Tory peer and wife of Tory MP, Dido Harding, to develop a new system",
@@ -230,7 +230,7 @@ const myQuestions = [
         correctAnswer: 'B'
     },
     {
-        question: "In line with the Track and Trace programme, data concerning the results of COVID-19 tests must be collected and stored in order to inform people of when they may have come into contact with the virus. In order to store these large quantities of data, do you:",
+        question: "In line with the Track and Trace programme, data concerning the results of COVID-19 tests must be collected and stored in order to inform people of when they may have come into contact with the virus. In order to store these large quantities of data, did the Government:",
         answers: {
             A: "Design a bespoke solution to store the data in the safest, most effective way despite the increased cost of this",
             B: "Use existing NHS databases and systems",
@@ -240,17 +240,17 @@ const myQuestions = [
         correctAnswer: "D"
     },
     {
-        question: 'In order for the track and trace scheme to work, the vast majority of the UK population have relinquished control of their data, in order for it to be used to help combat the spread of the disease. With all this data now in your hands, what do you do with it?',
+        question: "In order for the track and trace scheme to function effectively, the vast majority of the UK population have relinquished control of their data, in order for it to be used to help combat the spread of the disease. With all this data now in the UK Government's hands, what did they do with it?",
         answers: {
             A: "Grant a US spy-tech firm access to the data in order for them to train their systems and enhance their profits",
-            B: "Respect GDPR regulations and citizens' right to privacy and keep the data private",
+            B: "Respect GDPR regulations and citizens' right to privacy and keep the data confidential",
             C: "Use the data solely for track and trace purposes and destroy the dataset once this has been accomplished",
             D: "Use the data in other schemes to benefit the public"
         },
         correctAnswer: 'A'
     },
     {
-        question: "Due to the increased strain on the NHS and increased demand for medical supplies, as a result of the COVID-19 pandemic, the government must allocate contracts for the supply of these crucial services. In order to make sure that these contracts are allocated as efficiently as possible, do you:",
+        question: "Due to the increased strain on the NHS and increased demand for medical supplies due to the COVID-19 pandemic, the government must allocate contracts for the supply of these crucial services. In order to make sure that these contracts are allocated as efficiently as possible, did they:",
         answers: {
             A: "Pick randomly",
             B: "Prioritise companies with political connections and hold the majority of negotiations in closed channels",
@@ -260,12 +260,12 @@ const myQuestions = [
         correctAnswer: "B"
     },
     {
-        question: "Due to schools and other child care services being closed due to COVID-19, many of the most vulnerable members of society have been unable to access meals which they would normally depend on, with almost 2 million children going hungry in the UK in 2020. In order to prevent vulnerable children suffering, do you:",
+        question: "Due to schools and other child care services being closed due to COVID-19, many of the most vulnerable members of society have been unable to access meals which they would normally depend on, with almost 2 million children going hungry in the UK in 2020. In order to prevent vulnerable children suffering, what did the Government do? Was it:",
         answers: {
             A: "Extend the existing voucher schemes to provide support for vulnerable families",
             B: "Subsidise discount cards for people to use to buy food and essential items",
             C: "Pay private contractors to supply food packages to vulnerable families",
-            D: "Provide hardship grants to vulnerable families so that they can afford to eat"
+            D: "Provide hardship grants to vulnerable families to cover their cost of living"
         },
         correctAnswer: "C"
     }
