@@ -140,4 +140,5 @@ body {
   position: absolute;
   bottom: 10vh;
   left: 15vw;
+  display: hidden;
 }

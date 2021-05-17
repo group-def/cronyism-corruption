@@ -8,6 +8,7 @@ function buildQuiz(){
     // immediately close popups when building quiz to prevent it displaying on start
     closePopup();
     closePopupFinal();
+    openPopupIntro();
 
     // variable to store HTML output
     const output = [];
@@ -210,7 +211,7 @@ const finalBoxText = document.getElementById('finalboxtext')
 // define dictionary of questions and answers
 const myQuestions = [
     {
-        question: "During the first few months of the pandemic the UK saw an ever-growing demand for Personal Protective Equipment. As the death toll from COVID-19 worsened through March and April, how did the government respond to this demand for PPE? Did they:",
+        question: "During the first months of the pandemic the UK saw growing demand for protective equipment (PPE). As the crisis worsened through April and May 2020, how did the government respond to this demand for PPE? Did they:",
         answers: {
             A: 'Choose a company based on their experience producing and supplying PPE',
             B: 'Accept offers of help from companies who have volunteered their services during the pandemic',
@@ -220,7 +221,7 @@ const myQuestions = [
         correctAnswer: 'D'
     },
     {
-        question: 'In order to help stop the spread of COVID-19, a contact tracing system was implemented to notify people who have been in contact with the virus and advise them to stay at home. How did the UK Government decide to go about building this system? Did they:',
+        question: 'In order to slow the spread of Covid-19, a plan for a contact tracing system was launched in May. It would notify people who had been in contact with people carrying the virus and advise them to stay at home. How did the government go about building this system?',
         answers: {
             A: "Build upon the NHS' existing contact tracing system",
             B: "Hire Tory peer and wife of Tory MP, Dido Harding, to develop a new system",
@@ -230,7 +231,7 @@ const myQuestions = [
         correctAnswer: 'B'
     },
     {
-        question: "In line with the Track and Trace programme, data concerning the results of COVID-19 tests must be collected and stored in order to inform people of when they may have come into contact with the virus. In order to store these large quantities of data, did the Government:",
+        question: "The results of Covid-19 tests had to be collected and stored in order to alert people who might have come into contact with the virus. How did the government store this data?",
         answers: {
             A: "Design a bespoke solution to store the data in the safest, most effective way despite the increased cost of this",
             B: "Use existing NHS databases and systems",
@@ -240,7 +241,7 @@ const myQuestions = [
         correctAnswer: "D"
     },
     {
-        question: "In order for the track and trace scheme to function effectively, the vast majority of the UK population have relinquished control of their data, in order for it to be used to help combat the spread of the disease. With all this data now in the UK Government's hands, what did they do with it?",
+        question: "As part of the tracing scheme (known as Test and Trace), most people in the UK relinquished control of their data so it could be used to help combat the spread of the disease. What did the government do with all this data?",
         answers: {
             A: "Grant a US spy-tech firm access to the data in order for them to train their systems and enhance their profits",
             B: "Respect GDPR regulations and citizens' right to privacy and keep the data confidential",
@@ -250,7 +251,7 @@ const myQuestions = [
         correctAnswer: 'A'
     },
     {
-        question: "Due to the increased strain on the NHS and increased demand for medical supplies due to the COVID-19 pandemic, the government must allocate contracts for the supply of these crucial services. In order to make sure that these contracts are allocated as efficiently as possible, did they:",
+        question: "Due to the increased strain on the NHS and an increased demand for medical supplies, the government had to allocate contracts for more medical supplies. How did the government make sure these contracts were allocated correctly?",
         answers: {
             A: "Pick randomly",
             B: "Prioritise companies with political connections and hold the majority of negotiations in closed channels",
@@ -260,7 +261,7 @@ const myQuestions = [
         correctAnswer: "B"
     },
     {
-        question: "Due to schools and other child care services being closed due to COVID-19, many of the most vulnerable members of society have been unable to access meals which they would normally depend on, with almost 2 million children going hungry in the UK in 2020. In order to prevent vulnerable children suffering, what did the Government do? Was it:",
+        question: "With schools and other child care services closed due to Covid-19, many children were cut off from free school meals. This left almost two million children potentially hungry. In order to prevent these children from suffering, what did the Government do?",
         answers: {
             A: "Extend the existing voucher schemes to provide support for vulnerable families",
             B: "Subsidise discount cards for people to use to buy food and essential items",
