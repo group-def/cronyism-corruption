@@ -251,7 +251,7 @@ const myQuestions = [
         correctAnswer: 'A'
     },
     {
-        question: "Due to the increased strain on the NHS and an increased demand for medical supplies, the government had to allocate contracts for more medical supplies. How did the government make sure these contracts were allocated correctly?",
+        question: "Due to the increased strain on the NHS and an increased demand for medical supplies, the government had to allocate contracts for more medical supplies. How did the government go about allocating these contracts?",
         answers: {
             A: "Pick randomly",
             B: "Prioritise companies with political connections and hold the majority of negotiations in closed channels",
@@ -259,6 +259,16 @@ const myQuestions = [
             D: "Put the contracts out to open tender and allow the free market to function effectively"
         },
         correctAnswer: "B"
+    },
+    {
+        question: "Which of the following companies was not granted a contract, for the supply of PPE, that was among the top 25 highest value contracts?",
+        answers: {
+            A: "Ayanda Capital (Investment firm)",
+            B: "Pestfix (Pest control)",
+            C: "Arco (Safety equipment)",
+            D: "Unispace (Interior design)"
+        },
+        correctAnswer: "C"
     },
     {
         question: "With schools and other child care services closed due to Covid-19, many children were cut off from free school meals. This left almost two million children potentially hungry. In order to prevent these children from suffering, what did the Government do?",
@@ -317,11 +327,21 @@ const answerCards = [
     {
         correct: {
             title: 'Correct!',
-            content: "Rather than going through a competitive tender process - where companies bid for the rights to contracts - <a href='https://www.nao.org.uk/report/government-procurement-during-the-covid-19-pandemic/' target='_blank'>a report by the National Audit Office</a> found that the British government prioritised companies with political connections when allocating contracts throughout the pandemic. Reportedly, <a href='https://www.bbc.co.uk/news/business-54978460' target='_blank'>the government established a 'high-priority lane' for companies who were referred by government officials and ministers</a>, <a href='https://www.nao.org.uk/report/government-procurement-during-the-covid-19-pandemic/' target='_blank'>with suppliers in this lane being roughly ten times more likely to obtain contracts than those processed through ordinary channels</a>. <a href='https://www.nao.org.uk/press-release/investigation-into-government-procurement-during-the-covid-19-pandemic/' target='_blank'>Of the £17.3 billion worth of contracts which were awarded, 60% of these contracts were awarded without a competitive process</a>, which has ultimately lead to contracts being granted to companies with little suitability to the task. <a href='https://www.bmj.com/content/371/bmj.m4489' target='_blank'>Most notably, US jewellery company, Saiger, was granted £250 million worth of PPE contracts despite having no experience in supplying in PPE, which resulted in the Department for Health and Social Care overpaying by almost £2.50 per gown</a>. <a href='https://www.bmj.com/content/371/bmj.m4489' target='_blank'>According to the Good Law Project, the government received over 24,000 offers from 16,000 suppliers, many of whom had experience in providing PPE, yet three of the biggest beneficiaries of government contracts were companies specialising in jewellery (Saiger), pest control (Pestfix), and an opaque 'family office' owned through a tax haven (Ayanda).</a>"
+            content: "Rather than going through a competitive tender process - where companies bid for the rights to contracts - <a href='https://www.nao.org.uk/report/government-procurement-during-the-covid-19-pandemic/' target='_blank'>a report by the National Audit Office</a> found that the British government prioritised companies with political connections when allocating contracts throughout the pandemic. Reportedly, <a href='https://www.bbc.co.uk/news/business-54978460' target='_blank'>the government established a 'high-priority lane' for companies who were referred by government officials and ministers</a>, <a href='https://www.nao.org.uk/report/government-procurement-during-the-covid-19-pandemic/' target='_blank'>with suppliers in this lane being roughly ten times more likely to obtain contracts than those processed through ordinary channels</a>. <a href='https://www.nao.org.uk/press-release/investigation-into-government-procurement-during-the-covid-19-pandemic/' target='_blank'>Of the £17.3 billion worth of contracts which were awarded, 60% of these contracts were awarded without a competitive process</a>, which has ultimately lead to contracts being granted to companies with little suitability to the task."
         },
         incorrect: {
             title: `Incorrect! The correct answer is B!`,
-            content: "Rather than going through a competitive tender process - where companies bid for the rights to contracts - <a href='https://www.nao.org.uk/report/government-procurement-during-the-covid-19-pandemic/' target='_blank'>a report by the National Audit Office</a> found that the British government prioritised companies with political connections when allocating contracts throughout the pandemic. Reportedly, <a href='https://www.bbc.co.uk/news/business-54978460' target='_blank'>the government established a 'high-priority lane' for companies who were referred by government officials and ministers</a>, <a href='https://www.nao.org.uk/report/government-procurement-during-the-covid-19-pandemic/' target='_blank'>with suppliers in this lane being roughly ten times more likely to obtain contracts than those processed through ordinary channels</a>. <a href='https://www.nao.org.uk/press-release/investigation-into-government-procurement-during-the-covid-19-pandemic/' target='_blank'>Of the £17.3 billion worth of contracts which were awarded, 60% of these contracts were awarded without a competitive process</a>, which has ultimately lead to contracts being granted to companies with little suitability to the task. <a href='https://www.bmj.com/content/371/bmj.m4489' target='_blank'>Most notably, US jewellery company, Saiger, was granted £250 million worth of PPE contracts despite having no experience in supplying in PPE, which resulted in the Department for Health and Social Care overpaying by almost £2.50 per gown. <a href='https://www.bmj.com/content/371/bmj.m4489' target='_blank'>According to the Good Law Project, the government received over 24,000 offers from 16,000 suppliers, many of whom had experience in providing PPE, yet three of the biggest beneficiaries of government contracts were companies specialising in jewellery (Saiger), pest control (Pestfix), and an opaque 'family office' owned through a tax haven (Ayanda).</a>"
+            content: "Rather than going through a competitive tender process - where companies bid for the rights to contracts - <a href='https://www.nao.org.uk/report/government-procurement-during-the-covid-19-pandemic/' target='_blank'>a report by the National Audit Office</a> found that the British government prioritised companies with political connections when allocating contracts throughout the pandemic. Reportedly, <a href='https://www.bbc.co.uk/news/business-54978460' target='_blank'>the government established a 'high-priority lane' for companies who were referred by government officials and ministers</a>, <a href='https://www.nao.org.uk/report/government-procurement-during-the-covid-19-pandemic/' target='_blank'>with suppliers in this lane being roughly ten times more likely to obtain contracts than those processed through ordinary channels</a>. <a href='https://www.nao.org.uk/press-release/investigation-into-government-procurement-during-the-covid-19-pandemic/' target='_blank'>Of the £17.3 billion worth of contracts which were awarded, 60% of these contracts were awarded without a competitive process</a>, which has ultimately lead to contracts being granted to companies with little suitability to the task.</a>"
+        }
+    },
+    {
+        correct: {
+            title: 'Correct!',
+            content: ""
+        },
+        incorrect: {
+          title: 'Incorrect!',
+          content: ""
         }
     },
     {

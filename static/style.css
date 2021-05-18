@@ -102,3 +102,9 @@ body {
   position: relative;
   left: 25%
 }
+
+.button {
+  padding: 10px;
+  border-radius: 25px;
+  background-color: cornflowerblue;
+}
