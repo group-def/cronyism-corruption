@@ -214,9 +214,9 @@ const myQuestions = [
         question: "During the first months of the pandemic the UK saw growing demand for protective equipment (PPE). As the crisis worsened through April and May 2020, how did the government respond to this demand for PPE? Did they:",
         answers: {
             A: 'Choose a company based on their experience producing and supplying PPE',
-            B: 'Accept offers of help from companies who have volunteered their services during the pandemic',
-            C: 'Utilise various local companies around the country in order to get the PPE to where it is needed as quickly as possible',
-            D: 'Buy 400,000 gowns from a Turkish T-Shirt manufacturer'
+            B: 'Accept help from companies who have volunteered their services during the pandemic',
+            C: "Use local companies around the country to get the PPE to where it's needed as quickly as possible",
+            D: 'Buy 400,000 gowns from a Turkish t-shirt manufacturer'
         },
         correctAnswer: 'D'
     },
@@ -224,7 +224,7 @@ const myQuestions = [
         question: 'In order to slow the spread of Covid-19, a plan for a contact tracing system was launched in May. It would notify people who had been in contact with people carrying the virus and advise them to stay at home. How did the government go about building this system?',
         answers: {
             A: "Build upon the NHS' existing contact tracing system",
-            B: "Hire Tory peer and wife of Tory MP, Dido Harding, to develop a new system",
+            B: "Hire Tory peer, Dido Harding, to oversee the new system",
             C: "Hold an auction to determine who will develop the app through a competitive bidding process",
             D: "Follow other countries in adopting the widely popular Google and Apple models"
         },
@@ -233,7 +233,7 @@ const myQuestions = [
     {
         question: "The results of Covid-19 tests had to be collected and stored in order to alert people who might have come into contact with the virus. How did the government store this data?",
         answers: {
-            A: "Design a bespoke solution to store the data in the safest, most effective way despite the increased cost of this",
+            A: "Design a bespoke solution to store the data",
             B: "Use existing NHS databases and systems",
             C: "Store the data on paper",
             D: "Use Microsoft Excel"
@@ -241,22 +241,22 @@ const myQuestions = [
         correctAnswer: "D"
     },
     {
-        question: "As part of the tracing scheme (known as Test and Trace), most people in the UK relinquished control of their data so it could be used to help combat the spread of the disease. What did the government do with all this data?",
+        question: "As part of the tracing scheme (known as Test and Trace), most people in the UK allowed access to their data so it could be used to help combat the spread of the disease. What did the government do with all this data?",
         answers: {
-            A: "Grant a US spy-tech firm access to the data in order for them to train their systems and enhance their profits",
+            A: "Grant a US spy-tech firm access to the data in order for them to train their systems",
             B: "Respect GDPR regulations and citizens' right to privacy and keep the data confidential",
-            C: "Use the data solely for track and trace purposes and destroy the dataset once this has been accomplished",
-            D: "Use the data in other schemes to benefit the public"
+            C: "Use the data solely for Test and Trace and destroy the data afterwards",
+            D: "Use the data in other schemes that will benefit the public"
         },
         correctAnswer: 'A'
     },
     {
         question: "Due to the increased strain on the NHS and an increased demand for medical supplies, the government had to allocate contracts for more medical supplies. How did the government go about allocating these contracts?",
         answers: {
-            A: "Pick randomly",
-            B: "Prioritise companies with political connections and hold the majority of negotiations in closed channels",
-            C: "Carefully select companies based on their due diligence records and their suitability for the task",
-            D: "Put the contracts out to open tender and allow the free market to function effectively"
+            A: "Choose a company at random",
+            B: "Prioritise companies with political connections and hold most negotiations through closed channels",
+            C: "Select companies based on their due diligence records and their suitability for the task",
+            D: "Put the contracts out to open tender"
         },
         correctAnswer: "B"
     },
@@ -273,10 +273,10 @@ const myQuestions = [
     {
         question: "With schools and other child care services closed due to Covid-19, many children were cut off from free school meals. This left almost two million children potentially hungry. In order to prevent these children from suffering, what did the Government do?",
         answers: {
-            A: "Extend the existing voucher schemes to provide support for vulnerable families",
+            A: "Extend the existing voucher schemes to provide help for more families",
             B: "Subsidise discount cards for people to use to buy food and essential items",
-            C: "Pay private contractors to supply food packages to vulnerable families",
-            D: "Provide hardship grants to vulnerable families to cover their cost of living"
+            C: "Pay private contractors to supply food packages to families in need",
+            D: "Provide hardship grants to families that need help to cover their cost of living"
         },
         correctAnswer: "C"
     }
@@ -287,21 +287,21 @@ const answerCards = [
     {
         correct: {
             title: 'Correct!',
-            content: 'In April 2020, <a href="https://www.theguardian.com/world/2020/may/07/all-400000-gowns-flown-from-turkey-for-nhs-fail-uk-standards" target="_blank">the UK government ordered a shipment of 400,000 gowns from a Turkish T-Shirt manufacturer</a> in order to deal with the huge demand for Personal Protective Equipment for NHS staff. <a href="https://www.theguardian.com/world/2020/may/07/all-400000-gowns-flown-from-turkey-for-nhs-fail-uk-standards" target="_blank">Unfortunately, the gowns failed to meet UK standards and had to be returned to the supplier</a>, leaving vulnerable NHS staff still desperately short of PPE.'
+            content: 'In April 2020, <a href="https://www.theguardian.com/world/2020/may/07/all-400000-gowns-flown-from-turkey-for-nhs-fail-uk-standards" target="_blank">the Department of Health and Social Care ordered a shipment of 400,000 gowns from the Turkish t-shirt manufacturer, Selegna</a>, in order to deal with the huge demand for protective equipment for NHS workers. <a href="https://www.theguardian.com/world/2020/may/07/all-400000-gowns-flown-from-turkey-for-nhs-fail-uk-standards" target="_blank">But, the gowns failed to meet UK standards and had to be returned to the supplier</a>, leaving NHS staff still desperately short of PPE.'
         },
         incorrect: {
             title: `Incorrect! The correct answer is D!`,
-            content: 'In April 2020, <a href="https://www.theguardian.com/world/2020/may/07/all-400000-gowns-flown-from-turkey-for-nhs-fail-uk-standards" target="_blank">the UK government ordered a shipment of 400,000 gowns from a Turkish T-Shirt manufacturer</a> in order to deal with the huge demand for Personal Protective Equipment for NHS staff. <a href="https://www.theguardian.com/world/2020/may/07/all-400000-gowns-flown-from-turkey-for-nhs-fail-uk-standards" target="_blank">Unfortunately, the gowns failed to meet UK standards and had to be returned to the supplier</a>, leaving vulnerable NHS staff still desperately short of PPE.'
+            content: 'In April 2020, <a href="https://www.theguardian.com/world/2020/may/07/all-400000-gowns-flown-from-turkey-for-nhs-fail-uk-standards" target="_blank">the Department of Health and Social Care ordered a shipment of 400,000 gowns from the Turkish t-shirt manufacturer, Selegna</a>, in order to deal with the huge demand for protective equipment for NHS workers. <a href="https://www.theguardian.com/world/2020/may/07/all-400000-gowns-flown-from-turkey-for-nhs-fail-uk-standards" target="_blank">But, the gowns failed to meet UK standards and had to be returned to the supplier</a>, leaving NHS staff still desperately short of PPE.'
         }
     },
     {
         correct: {
             title: 'Correct!',
-            content: "<a href='https://www.theverge.com/2020/5/5/21248288/uk-covid-19-contact-tracing-app-bluetooth-restrictions-apple-google' target='_blank'>Rather than using the widely-adopted Apple and Google model</a>, or adapting the existing NHS system, the UK government decided to develop their own contact-tracing app. The government then appointed <a href='https://www.bristolpost.co.uk/news/local-news/dido-harding-track-trace-app-4170387' target='_blank'>Baroness Dido Harding</a> - a Tory peer and wife of Tory MP, John Penrose, who is best known for being the CEO of TalkTalk, where, in 2015, she presided over a data breach which lead to the loss of the financial and personal information of over 150,000 customers - to lead development of the app, despite her lack of experience in the public health sector. Inevitably, following numerous delays to the app's release and countless other mishaps, <a href='https://www.theguardian.com/world/2020/jun/18/uk-poised-to-abandon-coronavirus-app-in-favour-of-apple-and-google-models' target='_blank'>the government abandoned their 'world-beating' app and decided to instead use the Google and Apple model.</a>"
+            content: "<a href='https://www.theverge.com/2020/5/5/21248288/uk-covid-19-contact-tracing-app-bluetooth-restrictions-apple-google' target='_blank'>Rather than using the widely-adopted Apple and Google model</a>, or adapting the existing NHS system, the UK government decided to develop their own contact-tracing app. The government appointed <a href='https://www.bristolpost.co.uk/news/local-news/dido-harding-track-trace-app-4170387' target='_blank'>Dido Harding</a> - a Tory peer known for being the CEO of TalkTalk, where, in 2015, she presided over a data breach which lead to the loss of the financial and personal information of over 150,000 customers - to lead development of the app, despite her lack of experience in the public health sector. After numerous delays and mishaps, <a href='https://www.theguardian.com/world/2020/jun/18/uk-poised-to-abandon-coronavirus-app-in-favour-of-apple-and-google-models' target='_blank'>the government abandoned their 'world-beating' app and decided to instead use the Google and Apple model.</a>"
         },
         incorrect: {
             title: `Incorrect! The correct answer is B!`,
-            content: "<a href='https://www.theverge.com/2020/5/5/21248288/uk-covid-19-contact-tracing-app-bluetooth-restrictions-apple-google' target='_blank'>Rather than using the widely-adopted Apple and Google model</a>, or adapting the NHS existing system, the UK government decided to develop their own contact-tracing app. The government then appointed <a href='https://www.bristolpost.co.uk/news/local-news/dido-harding-track-trace-app-4170387' target='_blank'>Baroness Dido Harding</a> - a Tory peer and wife of Tory MP, John Penrose, who is best known for being the CEO of TalkTalk, where, in 2015, she presided over a data breach which lead to the loss of the financial and personal information of over 150,000 customers - to lead development of the app, despite her lack of experience in public health. Inevitably, following numerous delays to the app's release and countless other mishaps, <a href='https://www.theguardian.com/world/2020/jun/18/uk-poised-to-abandon-coronavirus-app-in-favour-of-apple-and-google-models' target='_blank'>the government abandoned their 'world-beating' app and decided to instead use the Google and Apple model.</a>"
+            content: "<a href='https://www.theverge.com/2020/5/5/21248288/uk-covid-19-contact-tracing-app-bluetooth-restrictions-apple-google' target='_blank'>Rather than using the widely-adopted Apple and Google model</a>, or adapting the existing NHS system, the UK government decided to develop their own contact-tracing app. The government appointed <a href='https://www.bristolpost.co.uk/news/local-news/dido-harding-track-trace-app-4170387' target='_blank'>Dido Harding</a> - a Tory peer known for being the CEO of TalkTalk, where, in 2015, she presided over a data breach which lead to the loss of the financial and personal information of over 150,000 customers - to lead development of the app, despite her lack of experience in the public health sector. After numerous delays and mishaps, <a href='https://www.theguardian.com/world/2020/jun/18/uk-poised-to-abandon-coronavirus-app-in-favour-of-apple-and-google-models' target='_blank'>the government abandoned their 'world-beating' app and decided to instead use the Google and Apple model.</a>"
         }
     },
     {
