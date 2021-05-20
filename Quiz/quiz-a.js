@@ -337,11 +337,11 @@ const answerCards = [
     {
         correct: {
             title: 'Correct!',
-            content: "The Good Law Project says the government received over 24,000 offers from 16,000 suppliers, many of whom had experience providing PPE, yet three of the biggest beneficiaries of contracts were specialised in pest control (Pestfix), interior design (Unispace), and private wealth management services (Ayanda Capital). The US jewellery company, Saiger, was also granted £250 million worth of PPE contracts despite having no experience supplying PPE, which resulted in the government overpaying by almost £2.50 per gown."
+            content: "<a href='https://www.bmj.com/content/371/bmj.m4489' target='_blank'>The Good Law Project says</a> the government received over 24,000 offers from 16,000 suppliers, many of whom had experience providing PPE, yet three of the biggest beneficiaries of contracts were specialised in pest control (Pestfix), interior design (Unispace), and private wealth management services (Ayanda Capital). <a href='https://www.bmj.com/content/371/bmj.m4489' target='_blank'>The US jewellery company, Saiger, was also granted £250 million worth of PPE contracts despite having no experience supplying PPE, which resulted in the government overpaying by almost £2.50 per gown.</a>"
         },
         incorrect: {
           title: 'Incorrect!',
-          content: "The Good Law Project says the government received over 24,000 offers from 16,000 suppliers, many of whom had experience providing PPE, yet three of the biggest beneficiaries of contracts were specialised in pest control (Pestfix), interior design (Unispace), and private wealth management services (Ayanda Capital). The US jewellery company, Saiger, was also granted £250 million worth of PPE contracts despite having no experience supplying PPE, which resulted in the government overpaying by almost £2.50 per gown."
+          content: "<a href='https://www.bmj.com/content/371/bmj.m4489' target='_blank'>The Good Law Project says</a> the government received over 24,000 offers from 16,000 suppliers, many of whom had experience providing PPE, yet three of the biggest beneficiaries of contracts were specialised in pest control (Pestfix), interior design (Unispace), and private wealth management services (Ayanda Capital). <a href='https://www.bmj.com/content/371/bmj.m4489' target='_blank'>The US jewellery company, Saiger, was also granted £250 million worth of PPE contracts despite having no experience supplying PPE, which resulted in the government overpaying by almost £2.50 per gown.</a>"
         }
     },
     {
