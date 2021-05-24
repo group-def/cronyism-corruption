@@ -52,12 +52,26 @@ body {
     width: 100vw;
     height: 100vh;
     padding-top: 20vh;
+    padding-bottom: 20vh;
     z-index: 2;
     position: relative;
     background-color: cornflowerblue;
     /* background-image: url('img/dohsc.jpg');
     background-size: cover;
     background-repeat: no-repeat; */
+}
+
+.regular-wrapper-big {
+  width: 100vw;
+  height: auto;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  z-index: 2;
+  position: relative;
+  background-color: cornflowerblue;
+  /* background-image: url('img/dohsc.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; */
 }
 
 .content {
@@ -91,7 +105,7 @@ body {
   height: 100vh;
   top: 0;
   left: 0;
-  background-image: url('img/borisrishi.jpg');
+  background-image: url('img/borishappy.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -120,6 +134,28 @@ body {
   transform: translateZ(-1px) scale(2);
 }
 
+.parallax-wrapper4 {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 20vh;
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+}
+.parallax-wrapper4::before {
+  content:"";
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-image: url('img/borisrishi.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  transform: translateZ(-1px) scale(2);
+}
+
+
 #graph {
   position: relative;
   left: 25%
@@ -129,4 +165,8 @@ body {
   padding: 10px;
   border-radius: 25px;
   background-color: cornflowerblue;
+}
+
+h1 {
+  font-style: italic;
 }
