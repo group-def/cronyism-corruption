@@ -187,6 +187,6 @@ body {
   background-color: cornflowerblue;
 }
 
-h1 {
+h1, h5, h3 {
   font-style: italic;
 }
